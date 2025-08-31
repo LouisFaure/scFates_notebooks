@@ -1,0 +1,13 @@
+[project]
+name = "scfates-notebooks"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "jupyterlab>=4.4.6",
+    "scfates",
+]
+
+[tool.uv.sources]
+scfates = { path = "../scFates", editable = true }
